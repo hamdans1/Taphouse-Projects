@@ -1,0 +1,30 @@
+#content-box {
+
+}
+
+.taphouse-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#beerlist-box {
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.beerbox {
+  margin-bottom: 35px;
+}
+
+.name-brewery-location {
+
+}
+
+.beer-description {
+
+}
+
+.style-abv {
+
+}
