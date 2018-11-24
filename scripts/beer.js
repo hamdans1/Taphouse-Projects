@@ -310,3 +310,84 @@ const beer = [
     active: true
   }
 ];
+
+const bottles = [
+  {
+    name: 'Bud Light',
+    style: 'Lager',
+    price: 7
+  },
+  {
+    name: 'Budweiser',
+    style: 'Lager',
+    price: 7
+  },
+  {
+    name: 'Michelob Ultra',
+    style: 'Lager',
+    price: 7
+  },
+  {
+    name: 'Amstel Light',
+    style: 'Lager',
+    price: 7
+  },
+  {
+    name: 'Heineken',
+    style: 'Lager',
+    price: 7
+  },
+  {
+    name: 'Corona',
+    style: 'Lager',
+    price: 7
+  },
+  {
+    name: 'Corona Premier',
+    style: 'Lager',
+    price: 7
+  },
+  {
+    name: 'Pabst Blue Ribbon',
+    style: 'Lager',
+    price: 6
+  },
+  {
+    name: 'Montauk Summer Ale',
+    style: 'American Pale Ale',
+    price: 6
+  },
+  {
+    name: 'Dogfish Sea Quench Ale',
+    style: 'Sour',
+    price: 6
+  }
+];
+
+const cocktails = [
+  {
+    name: 'Purple Haze',
+    price: 16,
+    description: 'Goza Silver Tequila, triple sec, and fresh lime juice shaken and strained over ice. Topped with a Pinot Noir float and served in a wine glass.'
+  },
+  {
+    name: 'Blueberry Pancake Old Fashioned',
+    price: 16,
+    description: 'Muddled blueberries, Jim Beam Bourbon, maple water, and vanilla bitters. Stirred well and strained over fresh ice.'
+  },
+  {
+    name: 'Gin Blossom',
+    price: 16,
+    description: 'English Dry Gin, St. Germaine Elderflower liqueur, honey water, and ginger bitters shaken with fresh lemon, lime, and orange. Served up in a wine glass and garnished with candied ginger.'
+  },
+  {
+    name: 'Strawberry Jalapeno Margarita',
+    price: 16,
+    description: 'Muddled fresh strawberry and jalapeno, Goza Silver Tequila, triple sec, and fresh lime juice shaken and strained over ice in a rocks glass and garnished with strawberry and jalapeno.'
+  },
+  {
+    name: 'TTH Mule',
+    price: 16,
+    description: 'Fresh muddled lime and New Zealand 6100 Vodka shaken and strained into a copper mug with a ginger beer float.'
+  }
+];
