@@ -1,8 +1,12 @@
 const beerSource = document.getElementById('beerTemp').innerHTML;
+const cocktailSource = document.getElementById('cocktailTemp').innerHTML;
+const bottledSource = document.getElementById('bottledTemp').innerHTML;
 
 const beerTemplate = Handlebars.compile(beerSource);
+const cocktailTemplate = Handlebars.compile(cocktailSource);
+const bottledTemplate = Handlebars.compile(bottledSource);
 
-const beerContext = {
+const context = {
   beer: [
       {
         name: 'Guinness',
@@ -314,11 +318,111 @@ const beerContext = {
         description: 'Citra and Amarillo hops provide this hazy New England IPA with notes of tangerine, pineapple, and grapefruit.',
         active: false
       }
+    ],
+    cocktails: [
+      {
+        name: 'Purple Haze',
+        price: 16,
+        description: 'Goza Silver Tequila, triple sec, and fresh lime juice shaken and strained over ice. Topped with a Pinot Noir float and served in a wine glass.',
+        active: true
+      },
+      {
+        name: 'Blueberry Pancake Old Fashioned',
+        price: 16,
+        description: 'Muddled blueberries, Jim Beam Bourbon, maple water, and vanilla bitters. Stirred well and strained over fresh ice.',
+        active: true
+      },
+      {
+        name: 'Gin Blossom',
+        price: 16,
+        description: 'English Dry Gin, St. Germaine Elderflower liqueur, honey water, and ginger bitters shaken with fresh lemon, lime, and orange. Served up in a wine glass and garnished with candied ginger.',
+        active: true
+      },
+      {
+        name: 'Strawberry Jalapeno Margarita',
+        price: 16,
+        description: 'Muddled fresh strawberry and jalapeno, Goza Silver Tequila, triple sec, and fresh lime juice shaken and strained over ice in a rocks glass and garnished with strawberry and jalapeno.',
+        active: true
+      },
+      {
+        name: 'TTH Mule',
+        price: 16,
+        description: 'Fresh muddled lime and New Zealand 6100 Vodka shaken and strained into a copper mug with a ginger beer float.',
+        active: true
+      }
+    ],
+    bottles: [
+      {
+        name: 'Bud Light',
+        style: 'Lager',
+        price: 7,
+        active: true
+      },
+      {
+        name: 'Budweiser',
+        style: 'Lager',
+        price: 7,
+        active: true
+      },
+      {
+        name: 'Michelob Ultra',
+        style: 'Lager',
+        price: 7,
+        active: true
+      },
+      {
+        name: 'Amstel Light',
+        style: 'Lager',
+        price: 7,
+        active: true
+      },
+      {
+        name: 'Heineken',
+        style: 'Lager',
+        price: 7,
+        active: true
+      },
+      {
+        name: 'Corona',
+        style: 'Lager',
+        price: 7,
+        active: true
+      },
+      {
+        name: 'Corona Premier',
+        style: 'Lager',
+        price: 7,
+        active: true
+      },
+      {
+        name: 'Pabst Blue Ribbon',
+        style: 'Lager',
+        price: 6,
+        active: true
+      },
+      {
+        name: 'Montauk Summer Ale',
+        style: 'American Pale Ale',
+        price: 6,
+        active: true
+      },
+      {
+        name: 'Dogfish Sea Quench Ale',
+        style: 'Sour',
+        price: 6,
+        active: true
+      }
     ]
 };
 
-const compiledBeerHtml = beerTemplate(beerContext);
+const compiledBeerHtml = beerTemplate(context);
+const compiledCocktailHtml = cocktailTemplate(context);
+const compiledBottledHtml = bottledTemplate(context);
 
-const displayGoal = document.getElementById('beerboxgoal');
+const beerGoal = document.getElementById('beerboxgoal');
+const cocktailGoal = document.getElementById('cocktailboxgoal');
+const bottledGoal = document.getElementById('bottledboxgoal');
 
-displayGoal.innerHTML = compiledBeerHtml;
+beerGoal.innerHTML = compiledBeerHtml;
+cocktailGoal.innerHTML = compiledCocktailHtml;
+bottledGoal.innerHTML = compiledBottledHtml;

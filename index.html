@@ -28,6 +28,24 @@
       {{/each}}
     </script>
 
+    <!-- cocktail script -->
+    <script id='cocktailTemp' type='text/x-handlebars-template'>
+      {{#each cocktails}}
+        {{#if this.active}}
+        <p><strong>{{this.name}}</strong> <em>${{this.price}}</em></p>
+        <p>{{this.description}}</p>
+        {{/if}}
+      {{/each}}
+    </script>
+
+    <!-- bottled beer script -->
+    <script id='bottledTemp' type='text/x-handlebars-template'>
+      {{#each bottles}}
+        {{#if active}}
+          <p>{{this.name}} - <em> {{this.style}}</em> - ${{this.price}}</p>
+        {{/if}}
+      {{/each}}
+    </script>
 
   </head>
 
@@ -41,34 +59,29 @@
 
       <!-- template for beer boxes -->
       <div class="col beerbox" id="beerboxgoal">
-
       </div>
 
     </div>
 
     <div class="container cocktails">
-
       <h1 class="cocktail-header"><strong>Cocktails</strong></h1>
 
       <!-- template for cocktail boxes -->
-      <div class="cocktail-box">
-        <p><strong>Cocktail Name</strong> <em>$$</em></p>
-        <p>This should be a description of the cocktail and a list of drink ingredients.</p>
-      </div>
-
-  </div>
-
-  <div class="bottled-wines container">
-
-    <div class="col-md-6 bottled-beers">
-      <h1 class="bottled-beer-header"><strong>Bottled Beers</strong></h1>
-
-      <!-- template for bottled beer boxes -->
-      <div class="bottled-beer-box">
-        <p>Beer Name - Beer Style<em> - ABV% </em> - $$</p>
+      <div class="cocktail-box" id='cocktailboxgoal'>
       </div>
 
     </div>
+
+    <div class="bottled-wines container">
+
+      <div class="col-md-6 bottled-beers">
+      <h1 class="bottled-beer-header"><strong>Bottled Beers</strong></h1>
+
+      <!-- template for bottled beer boxes -->
+        <div class="bottled-beer-box" id='bottledboxgoal'>
+        </div>
+
+      </div>
 
       <div class="col-md-6 wines">
         <h1 class="wines-header"><strong>Wines</strong></h1>
