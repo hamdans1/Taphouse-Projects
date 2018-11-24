@@ -6,7 +6,7 @@ const beer = [
     price: 10,
     brewery: 'Guinness Brewing',
     location: 'Dublin, Ireland',
-    description: 'Traditional Irish Stout that hits the perfect balance of bitter and sweet with heavy malt and roast character. Smooth and dark with a distinctivly rich creamy head, Guinness has been pleasing for over 100 years.',
+    description: 'Traditional Irish Stout that hits the perfect balance of bitter and sweet with heavy malt and roast character. Smooth and dark with a distinctivly rich creamy head, Guinness has been pleasing for over 200 years.',
     active: true
   },
   {
