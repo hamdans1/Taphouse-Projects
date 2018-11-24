@@ -227,7 +227,7 @@ const beer = [
     brewery: 'Revolution',
     location: 'Chicago, IL',
     description: 'Designed to showcase the Citra hop variety, this IPA is brewed by adding multiple heavy layers of the crisp, bitter hop to the brew process.',
-    active: true
+    active: false
   },
   {
     name: 'FestBier',
@@ -267,7 +267,7 @@ const beer = [
     brewery: 'Anheuser-Busch',
     location: 'St. Louis, MO',
     description: 'Americas favorite beer features a blend of hop varities for superior drinkability.',
-    active: true
+    active: false
   },
   {
     name: 'Heineken',
@@ -277,7 +277,7 @@ const beer = [
     brewery: 'Heineken',
     location: 'Amsterdam, Netherlands',
     description: 'Crystal clarity and a slight bitterness mark the classic Dutch pale lager.',
-    active: true
+    active: false
   },
   {
     name: 'Dos Equis Amber Lager',
@@ -287,7 +287,7 @@ const beer = [
     brewery: 'CCM',
     location: 'SA de CV, Mexico',
     description: 'Authentic Mexican lager brewed in the Pilsner style with layers of malts and spice.',
-    active: true
+    active: false
   },
   {
     name: 'Goose Island IPA',
@@ -297,7 +297,7 @@ const beer = [
     brewery: 'Goose Island',
     location: 'Chicago, IL',
     description: 'The perfect IPA to any hop lover features a fruit scent with a strong hop finish around a malty center.',
-    active: true
+    active: false
   },
   {
     name: 'VT IPA',
@@ -307,7 +307,7 @@ const beer = [
     brewery: 'Long Trail',
     location: 'Burlington, VT',
     description: 'Citra and Amarillo hops provide this hazy New England IPA with notes of tangerine, pineapple, and grapefruit.',
-    active: true
+    active: false
   }
 ];
 
