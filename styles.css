@@ -1,3 +1,7 @@
+* {
+zoom: 97%;
+}
+
 #content-box {
 font-family: 'Carrois Gothic SC', sans-serif;
 }
@@ -19,7 +23,7 @@ font-family: 'Carrois Gothic SC', sans-serif;
 }
 
 .beerbox {
-  margin-bottom: 35px;
+  margin-bottom: 10px;
   padding-left: 0px;
 }
 
@@ -27,21 +31,18 @@ font-family: 'Carrois Gothic SC', sans-serif;
   display: none;
 }
 
-.name-brewery-location {
+.beer-details {
 
 }
 
 .beer-description {
-
-}
-
-.style-abv-price {
-
+  margin-left: 10px;
 }
 
 .bottled-wines {
   display: inline-flex;
   margin-bottom: 35px;
+
 }
 
 .bottled-beers {
@@ -51,7 +52,7 @@ font-family: 'Carrois Gothic SC', sans-serif;
 }
 
 .bottled-beer-header {
-font-family: 'Federo', sans-serif;
+  font-family: 'Federo', sans-serif;
 }
 
 .bottled-beer-box {
@@ -68,7 +69,7 @@ font-family: 'Federo', sans-serif;
 }
 
 .wines-header {
-font-family: 'Federo', sans-serif;
+  font-family: 'Federo', sans-serif;
 }
 
 .white-wines-box {
@@ -86,9 +87,13 @@ font-family: 'Federo', sans-serif;
 }
 
 .cocktail-header {
-font-family: 'Federo', sans-serif;
+  font-family: 'Federo', sans-serif;
 }
 
 .cocktail-box {
 
+}
+
+.cocktail-details {
+  margin-left: 10px;
 }

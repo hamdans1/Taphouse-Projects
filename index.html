@@ -14,14 +14,11 @@
       {{#each beer}}
       {{#if this.active}}
       <div class="col beerbox">
-        <div class="col name-brewery-location">
-          <p><span class="beer-name">{{this.name}}</span><strong> - {{this.type}}</strong><em> - {{this.brewery}}</em></p>
+        <div class="col beer-details">
+          <h5><strong><span class="beer-name">{{this.name}}</span><em> - {{this.type}}</em> - {{this.brewery}} - <em>{{this.location}}</em> - {{this.abv}}% ABV - <em>${{this.price}}</em></strong></h5>
         </div>
         <div class="col beer-description">
-          <p>{{this.description}}</p>
-        </div>
-        <div class="col style-abv-price">
-          <p><em>{{this.location}}</em> - <strong>{{this.abv}}%</strong> - <em>${{this.price}}</em></p>
+          <p>--{{this.description}}</p>
         </div>
       {{else}}
       <div class='hidden'>
@@ -35,8 +32,8 @@
     <script id='cocktailTemp' type='text/x-handlebars-template'>
       {{#each cocktails}}
         {{#if this.active}}
-        <p><strong>{{this.name}}</strong> <em>${{this.price}}</em></p>
-        <p>{{this.description}}</p>
+        <h5><strong>{{this.name}}</strong> <em>${{this.price}}</em></h5>
+        <p class= 'cocktail-details'>{{this.description}}</p>
         {{/if}}
       {{/each}}
     </script>
@@ -57,57 +54,58 @@
       <img class="taphouse-logo" src="images/logo11.png" alt="Taphouse Logo">
 
 
-    <div class="container" id="ontap">
-      <h1 class="beer-header"><strong>Beers On Tap</strong></h1>
+      <div class="col-xl-12" id="ontap">
+        <h1 class="beer-header"><strong>Beers On Tap</strong></h1>
 
-      <!-- template for beer boxes -->
-      <div class="col beerbox" id="beerboxgoal">
-      </div>
-
-    </div>
-
-    <div class="container cocktails">
-      <h1 class="cocktail-header"><strong>Cocktails</strong></h1>
-
-      <!-- template for cocktail boxes -->
-      <div class="cocktail-box" id='cocktailboxgoal'>
-      </div>
-
-    </div>
-
-    <div class="bottled-wines container">
-
-      <div class="col-md-6 bottled-beers">
-      <h1 class="bottled-beer-header"><strong>Bottled Beers</strong></h1>
-
-      <!-- template for bottled beer boxes -->
-        <div class="bottled-beer-box" id='bottledboxgoal'>
+        <!-- template for beer boxes -->
+        <div class="col beerbox" id="beerboxgoal">
         </div>
 
       </div>
 
-      <div class="col-md-6 wines">
-        <h1 class="wines-header"><strong>Wines</strong></h1>
-        <p>All of our wines come from French estate Maison Nicholas.</p>
+      <div class="container cocktails">
+        <h1 class="cocktail-header"><strong>Cocktails</strong></h1>
 
-        <div class="white-wines-box">
-          <h3>White Wines</h3>
-          <p><strong>Sauvignion Blanc</strong> <em>$$</em></p>
-          <p><strong>Chardonnay</strong> <em>$$</em></p>
-          <p><strong>Pinot Grigio</strong> <em>$$</em></p>
+        <!-- template for cocktail boxes -->
+        <div class="cocktail-box" id='cocktailboxgoal'>
         </div>
-        <div class="red-wines-box">
-          <h3>Red Wines</h3>
-          <p><strong>Merlot</strong> <em>$$</em></p>
-          <p><strong>Cabarnet Sauvignion</strong> <em>$$</em></p>
-          <p><strong>Pinot Noir</strong> <em>$$</em></p>
-        </div>
+
       </div>
 
+      <div class="bottled-wines container">
+
+        <div class="col-md-6 bottled-beers">
+          <h1 class="bottled-beer-header"><strong>Bottled Beers</strong></h1>
+
+          <!-- template for bottled beer boxes -->
+          <div class="bottled-beer-box" id='bottledboxgoal'>
+          </div>
+
+        </div>
+
+        <div class="col-md-6 wines">
+          <h1 class="wines-header"><strong>Wines</strong></h1>
+          <p>All of our wines come from French estate Maison Nicholas.</p>
+
+          <div class="white-wines-box">
+            <h3>White Wines</h3>
+            <p><strong>Sauvignion Blanc</strong> <em>$$</em></p>
+            <p><strong>Chardonnay</strong> <em>$$</em></p>
+            <p><strong>Pinot Grigio</strong> <em>$$</em></p>
+          </div>
+          <div class="red-wines-box">
+            <h3>Red Wines</h3>
+            <p><strong>Merlot</strong> <em>$$</em></p>
+            <p><strong>Cabarnet Sauvignion</strong> <em>$$</em></p>
+            <p><strong>Pinot Noir</strong> <em>$$</em></p>
+          </div>
+
+        </div>
+
+      </div>
+
+
     </div>
-
-
-  </div>
 
   <script src='scripts/main.js' type='text/javascript'></script>
 </body>

@@ -15,7 +15,7 @@ const context = {
         price: 10,
         brewery: 'Guinness Brewing',
         location: 'Dublin, Ireland',
-        description: 'Traditional Irish Stout that hits the perfect balance of bitter and sweet with heavy malt and roast character. Smooth and dark with a distinctivly rich creamy head, Guinness has been pleasing for over 200 years.',
+        description: 'Irish classic that hits the perfect balance of bitter and sweet with heavy malt and roast characters, topped with a creamy head.',
         active: true
       },
       {
@@ -25,7 +25,7 @@ const context = {
         price: 9,
         brewery: 'Radeberger Gruppe',
         location: 'Radeberg, Germany',
-        description: 'German style pilsner featuring a dominant hops flavor with a distinct bitterness. This pilsner has been refreshing German nobility since the 19th century.',
+        description: 'German style pilsner featuring a dominant hops flavor and a distinct bitterness, with a smooth pillowy head.',
         active: true
       },
       {
@@ -45,7 +45,7 @@ const context = {
         price: 9,
         brewery: 'Modelo',
         location: 'Mexico City, Mexico',
-        description: 'Well balanced lager with a taste of orange blossom and herb. Modelo was brewed as the perfect lager, aiming to be what the perfect beer should be.',
+        description: 'Well balanced lager with a taste of orange blossom and herb. Modelo was brewed to be what the perfect beer should be.',
         active: true
       },
       {
@@ -55,7 +55,7 @@ const context = {
         price: 8,
         brewery: 'Veltins',
         location: 'Meschede-Grevenstein, Germany',
-        description: 'Beautifully clean pale pilsner with a heavy white head. Dry, crisp, refreshing, and sneakily sweet sip that begs to be followed by another.',
+        description: 'Beautifully clean pale pilsner with a smooth top. Crisp, refreshing, and sneakily sweet sip that begs to be followed by another.',
         active: true
       },
       {
@@ -65,7 +65,7 @@ const context = {
         price: 9,
         brewery: 'Peak Organic',
         location: 'Portland, ME',
-        description: 'Beautifully orchestrated blend of Simcoe, Amarillo, and Nugget hops to form a surprisingly citrusy New England style IPA.  Peak is one of only three organic breweries in the country.',
+        description: 'Beautifully orchestrated blend of Simcoe, Amarillo, and Nugget hops to form a surprisingly citrusy New England style IPA.',
         active: true
       },
       {
@@ -75,7 +75,7 @@ const context = {
         price: 9,
         brewery: 'Dogfish Head',
         location: 'Milton, DE',
-        description: 'Continuosly hopped with 60 hop additions over 60 minutes, then filtered clean to give a light amber coloring.  This is the ultimate IPA entry-point for any beginner.',
+        description: 'Hopped with 60 hop additions over 60 minutes, filtered for light amber coloring.  Perfect IPA entry-point for any beginner.',
         active: true
       },
       {
@@ -85,7 +85,7 @@ const context = {
         price: 9,
         brewery: 'Brooklyn Brewery',
         location: 'Brooklyn, NY',
-        description: 'Features light caramel coloring from a strong malty center.  Balance for a more refreshing flavor using dry-hopping, this might be the apex American Lager.',
+        description: 'Light caramel coloring from a strong malty center.  Balanced using dry-hopping, creates a near-perfect American Lager.',
         active: true
       },
       {
@@ -95,7 +95,7 @@ const context = {
         price: 9,
         brewery: 'Five Boroughs',
         location: 'Brooklyn, NY',
-        description: 'Brewed clean and clear like a lager but with large quantities of Motueka and Centennial hops to give a stronger abv and IPA flavor profile.',
+        description: 'Brewed cold and clear like a lager but with large quantities of Motueka and Centennial hops to give a stronger abv and IPA flavor.',
         active: true
       },
       {
@@ -105,7 +105,7 @@ const context = {
         price: 9,
         brewery: 'Switchback',
         location: 'Burlington, VT',
-        description: 'Unique amber ale unlike any other. Leads with hoppy flavors followed by a smooth, sweet, fruity malt. Unfiltered, naturally carbonated, incredibly drinkable.',
+        description: 'Unique amber ale that leads with hoppy flavors followed by a smooth, sweet, fruity malt. Unfiltered and very drinkable.',
         active: true
       },
       {
@@ -125,7 +125,7 @@ const context = {
         price: 9,
         brewery: 'Harpoon',
         location: 'Boston, MA',
-        description: 'Unfiltered, brewed with orange, and spiced with coriander in the original Belgian tradition. This beer fits for a hot summer night, or a cold winter afternoon just the same.',
+        description: 'Unfiltered, cloudy, brewed with orange, and spiced with coriander in the original Belgian tradition.',
         active: true
       },
       {
@@ -135,7 +135,7 @@ const context = {
         price: 9,
         brewery: 'New Belgium',
         location: 'Fort Collins, CO',
-        description: 'Unique blend of English, Belgian, and American brewing traditions produced this balanced blend of floral hops, sweet malts, and spicy fruit.',
+        description: 'Method of European and American brewing traditions produced this balanced blend of floral hops, sweet malts, and spicy fruit.',
         active: true
       },
       {
@@ -145,7 +145,7 @@ const context = {
         price: 8,
         brewery: 'Angry Orchard',
         location: 'Walden, NY',
-        description: 'The gorgeous pink color comes from using the rarest French red apples. Prepare to be surprised by the refreshingly dry finish that leaves you itching for another.',
+        description: 'The gorgeous pink color comes from using the rarest French red apples. Refreshingly dry finish that leaves you wanting another.',
         active: true
       },
       {
@@ -165,7 +165,7 @@ const context = {
         price: 9,
         brewery: 'Kona',
         location: 'Kona, Hawaii',
-        description: 'Light, golden ale with delicate Hawaiian hops and a roasted honey malt. You will notice a slight sweetness in this easy drinking brightly golden ale.',
+        description: 'Light, golden ale with delicate Hawaiian hops and a roasted honey malt for a slightly sweet finish.',
         active: true
       },
       {
@@ -175,7 +175,7 @@ const context = {
         price: 9,
         brewery: 'Montauk',
         location: 'Montauk, NY',
-        description: 'Malty center with a ton of American hops to balance out this English Style Pale Ale.  Try it by itself or layered with a Guinness for an American style black and tan.',
+        description: 'Malty center with a ton of American hops to balance out this English Style Pale Ale.  Layer with a Guinness for a black and tan.',
         active: true
       },
       {
@@ -185,7 +185,7 @@ const context = {
         price: 10,
         brewery: 'River Horse',
         location: 'Ewing, NJ',
-        description: 'Belgian style tripel brewed with spices and fermented with River Horse special yeast strain.  Look for complex flavoring and hints of vanilla and orange.',
+        description: 'Belgian style tripel brewed with traditional Belgian spices.  Look for complex flavoring and hints of vanilla and orange.',
         active: true
       },
       {
@@ -195,7 +195,7 @@ const context = {
         price: 9,
         brewery: 'Dogfish Head',
         location: 'Milton, DE',
-        description: 'Dogfish Head succeeds, where so many other brewers have failed, in delivering a real Blood Orange IPA.  Warrior, Centennial, and secret hops combined with lemon flesh and blood orange zest.',
+        description: 'Warrior, Centennial, and proprietary hops combined with lemon flesh and blood orange zest to make the perfect blood orange IPA.',
         active: true
       },
       {
@@ -205,7 +205,7 @@ const context = {
         price: 9,
         brewery: 'Braven',
         location: 'Bushwick, NY',
-        description: 'This hazy, sweet pale ale is unlike any you might have come across before.  Brewed with real tangerine puree and balanced with heavy hops.',
+        description: 'This hazy, sweet pale ale is unlike any other.  Brewed with real tangerine puree and balanced with heavy hops.',
         active: true
       },
       {
@@ -225,7 +225,7 @@ const context = {
         price: 10,
         brewery: 'Allagash',
         location: 'Portland, ME',
-        description: 'Fruity, refreshing, and a deep cloudy white mark this Belgian style wheat beer.  Robust flavors of coriander and bitter curacao orange, goes perfect with a slice of lemon.',
+        description: 'Fruit forward and refreshing Belgian style wheat beer.  Look for robust flavors of coriander and bitter curacao orange.',
         active: true
       },
       {
