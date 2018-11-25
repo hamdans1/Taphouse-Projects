@@ -23,6 +23,10 @@ font-family: 'Carrois Gothic SC', sans-serif;
   padding-left: 0px;
 }
 
+.hidden {
+  display: none;
+}
+
 .name-brewery-location {
 
 }

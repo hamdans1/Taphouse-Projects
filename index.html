@@ -12,9 +12,9 @@
     <!-- draft beer script -->
     <script id='beerTemp' type='text/x-handlebars-template'>
       {{#each beer}}
+      {{#if this.active}}
       <div class="col beerbox">
         <div class="col name-brewery-location">
-          {{#if this.active}}
           <p><span class="beer-name">{{this.name}}</span><strong> - {{this.type}}</strong><em> - {{this.brewery}}</em></p>
         </div>
         <div class="col beer-description">
@@ -22,8 +22,11 @@
         </div>
         <div class="col style-abv-price">
           <p><em>{{this.location}}</em> - <strong>{{this.abv}}%</strong> - <em>${{this.price}}</em></p>
-          {{/if}}
         </div>
+      {{else}}
+      <div class='hidden'>
+      </div>
+      {{/if}}
       </div>
       {{/each}}
     </script>
