@@ -317,6 +317,16 @@ const context = {
         location: 'Burlington, VT',
         description: 'Citra and Amarillo hops provide this hazy New England IPA with notes of tangerine, pineapple, and grapefruit.',
         active: false
+      },
+      {
+        name: 'Toasted Porter',
+        type: 'Porter',
+        abv: 6.0,
+        price: 9,
+        brewery: 'Einstok',
+        location: 'Reykjavik, Iceland',
+        description: 'Robust porter with strong notes of coffee and chocolate. Toasted Munich malts, Bavarian hops, and Icelandic coffee',
+        active: true
       }
     ],
     cocktails: [
